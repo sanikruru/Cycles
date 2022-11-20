@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 float X, Y, Z;
 
 void data_input() {
@@ -11,7 +10,6 @@ void data_input() {
     std::cout << "Enter max - ";
     std::cin >> Z;
 }
-
 int main() {
     data_input();
     for (X; X <= Y; X = X + Z) {
